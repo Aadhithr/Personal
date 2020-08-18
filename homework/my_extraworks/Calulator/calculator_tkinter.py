@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 root.title("Aadhith's Calculator")
 
-inputBox = Entry(root, width=45, borderwidth=10)
+inputBox = Entry(root, width=45, borderwidth=15)
 inputBox.grid(row=0, column=0, columnspan=5, padx=10, pady=10)
 
 def click(number):
@@ -13,7 +13,7 @@ def click(number):
     
 def clr():
     inputBox.delete(0, END) 
-    
+     
 def equal():
     second_number = inputBox.get()
     inputBox.delete(0, END)
