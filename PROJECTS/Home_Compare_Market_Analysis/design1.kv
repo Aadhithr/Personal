@@ -1,0 +1,51 @@
+<HomeScreen>:
+    GridLayout:
+        cols: 1
+        GridLayout:
+            cols: 1
+            padding: 15,15
+            spacing: 20,20
+            Label:
+                text: "Welcome to Offer Price Estimate. This app will use a method of analysis using comparable homes to give you a resonable offer price. Please enter details about the main home on the next page."
+            Button:
+                text: "Next"
+                size_hint: 0.3, 0.5
+                on_press: root.next()
+
+<MainScreen>:
+    GridLayout:
+        cols:1
+        GridLayout:
+            cols: 1
+            padding: 15, 15
+            spacing: 20, 20
+            TextInput:
+                id: name
+                hint_text: "Name of Home"
+            TextInput:
+                id: age
+                hint_text: "Age of Home"
+            TextInput:
+                id: lot
+                hint_text: "Lot Size(Sq.Ft) "
+            TextInput:
+                id: size
+                hint_text: "Size(Sq.Ft)"
+            TextInput:
+                id: scldist
+                hint_text: "Average distance to school"
+            TextInput:
+                id: rooms
+                hint_text: "Number of rooms"
+            TextInput:
+                id: stories
+                hint_text: "Number of Stories"
+
+            
+
+
+<RootWidget>:
+    HomeScreen:
+        name: "home_screen"
+    MainScreen:
+        name: "main_screen"
