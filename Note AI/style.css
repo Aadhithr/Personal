@@ -1,0 +1,119 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+    color: #132f53;
+    text-transform: uppercase;
+  }
+  
+  
+  #button-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #ff3333;
+  }
+  
+  button:active {
+    background-color: #ff1a1a;
+  }
+  
+  button:disabled {
+    background-color: #8b8989;
+    cursor: not-allowed;
+  }
+  
+  #transcript-container {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.12);
+  }
+  
+  #transcript {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-y: auto;
+    color: #000000;
+  }
+  
+  #summary-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.12);
+    color: #000000;
+  }
+  
+  #summary-heading-container {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #191943;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+  }
+  
+  #summary-heading {
+    margin: 0;
+    font-size: 14px;
+    color: #132f53;
+  }
+  
+  select {
+    background-color: #132f53;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 5px;
+    width: 120px;
+  }
+  
+  select:hover {
+    background-color: #0e2340;
+  }
+  
+  select:active {
+    background-color: #0a1a33;
+  }
+  
+  select option {
+    background-color: #132f53;
+    color: #ffffff;
+    font-size: 12px;
+  }

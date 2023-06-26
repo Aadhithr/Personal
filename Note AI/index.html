@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Note AI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Note AI</h1>
+    <div id="button-container">
+        <button id="startBtn">Start Recording</button>
+        <button id="stopBtn" disabled>Stop Recording</button>
+    </div>
+    <div id="transcript-container">
+        <div id="transcript"></div>
+    </div>
+    <div id="button-container">
+        <button id="generateBtn" disabled>Generate</button>
+        <button id="copyBtn" onclick="copyText()">Copy</button>
+        <select id="outputOption">
+            <option value="summary">Summary</option>
+            <option value="guidedQuestions">Guided Questions</option>
+            <option value="quiz">Quiz</option>
+            <option value="todolist">To-Do List</option>
+        </select>
+    </div>
+    <div id="summary-heading-container">
+        <h2 id="summary-heading">Output</h2>
+    </div>
+    <div id="summary-container">
+        <div id="summary"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
