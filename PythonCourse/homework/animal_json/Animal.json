@@ -1,0 +1,27 @@
+[
+    {
+        "animal" : "dog",
+        "likes" : "meat",
+        "dislikes" : "vegetables"       
+    },
+    {
+        "animal" : "cat",       
+        "likes" : "mice",
+        "dislikes" : "vegetables"       
+    },
+    {
+        "animal" : "lion",
+        "likes" : "deer",
+        "dislikes" : "vegetables"       
+    },
+    {
+        "animal" : "cow",
+        "likes" : "vegetables",
+        "dislikes" : "meat"       
+    },
+    {
+        "animal" : "deer",
+        "likes" : "vegetables",
+        "dislikes" : "lion"       
+    }
+]
